@@ -13,3 +13,17 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         document.getElementById("error-message").textContent = "";
     }
 });
+
+// test.addEventListener("mouseover", setDark);
+// test.addEventListener("mouseout", setLight);
+
+// function setDark() {
+//     document.body.style.background = "#154979";
+//     test.style.color = "white";
+// }
+
+// function setLight() {
+//     document.body.style.background = "white";
+//     test.style.color = "white"
+// }
+// onsubmit="return validateForm()" method="get" inside the html form element
