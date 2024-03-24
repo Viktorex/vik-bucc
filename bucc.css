@@ -74,9 +74,14 @@ p {
 }
 
 @media only screen and (max-width: 700px) {
-    .login-form {
-        width: 150%;
-        margin-left: 1f0px;
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .container{
+        width: 60%;
     }
 }
 
